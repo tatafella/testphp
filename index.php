@@ -17,8 +17,7 @@ if ($result->num_rows > 0) {
         echo "id: " . $row["id"]. " - Nom: " . $row["nom"]. " - Prenom: " . $row["prenom"]. " - Adresse: " . $row["adresse"]. "<br>";
     }
 } else {
-    echo "nom : id: 120, Nom: Berlin, Prenom:Sophie, Adresse 9 rue Montreuil \n";
-    echo "nom : id: 121, Nom: Bertier, Prenom:Amadou, Adresse 38 rue Foch";
+    echo "Pas de résultat";
 
 }
 $conn->close();
